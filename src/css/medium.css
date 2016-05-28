@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+    body{
+        width: 970px;
+    }
+
+    nav ul{
+        float: left;
+    }
+
+    nav li {
+        display: block;
+        background-position: 0;
+        padding: 0px;
+    }
+
+    nav li a {
+        display: block;
+        padding: 5px 0 0 50px;
+    }
+
+    nav{
+        top: 160px;
+        left: 35px;
+    }
+}
+
+

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    background: #FFF;
+}
+
+nav {
+    position: absolute;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav li {
+    margin-bottom: 15px;
+    line-height: 2em;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+
+.food-sense{
+    background: url('../images/food-sense.png') no-repeat 0 0;
+    width: 120px;
+    height: 120px;
+    margin: 0 0 50px 15px;
+}
+
+nav li a {
+    height: 30px;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.mb5{
+    margin-bottom: 50px;
+}

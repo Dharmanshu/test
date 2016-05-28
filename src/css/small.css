@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+    body{
+        width: 750px;
+    }
+
+    nav{
+        top: 20px;
+        left: auto;
+        right: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 45px 15px 0 15px;
+        background-position: 50% 0;
+    }
+
+    nav li a{
+        display: inline;
+    }
+
+    .taste-markers{
+        background-image: url('../images/testmarkers.PNG');
+    }
+
+    .blog{
+        background-image: url('../images/blog.PNG');
+    }
+
+    .a-list{
+        background-image: url('../images/a_list.PNG');
+    }
+
+    .contribute{
+        background-image: url('../images/contribute.PNG');
+    }
+
+    .about{
+        background-image: url('../images/about.PNG');
+    }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+
+    nav{
+        top: 50px;
+        left: auto;
+        right: 25px;
+        width: 315px;
+        height: 20px;
+        font-size: .75em;
+    }
+
+}
+

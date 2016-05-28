@@ -1,0 +1,36 @@
+@media only screen and (min-width: 480px){
+    nav li {
+        display: inline;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+
+    body{
+        width: 350px;
+        padding-top: 15px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav{
+       height: 30px;
+       font-size: .75em;
+       top: 0;
+       left: 0;
+       width: 100%;
+       margin-left: 20px;
+
+       border-bottom: 1px solid #E5E5E5;
+       -webkit-box-shadow: 0 1px 0 #F5F5F5;
+       -moz-box-shadow: 0 1px 0 #F5F5F5;
+       box-shadow: 0 1px 0 #F5F5F5;
+   }
+
+    .food-sense{
+        margin: 50px auto;
+    }
+}
